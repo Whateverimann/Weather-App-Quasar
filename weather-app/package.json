@@ -9,7 +9,7 @@
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "icons": "icongenie generate -i weather.png --theme-color 007991 --skip-trim"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
